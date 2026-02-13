@@ -1,9 +1,9 @@
 const correctPassword = "20092025";
 
 /* FOTO JATUH */
-const photos = ["images/1.jpg","images/6.jpg","images/3.jpg","images/4.jpg","images/8.jpg","images/15.jpg","images/16.jpg",
-  "images/17.jpg","images/18.jpg","images/19.jpg","images/20.jpg","images/21.jpg","images/22.jpg","images/23.jpg","images/24.jpg",
-  "images/25.jpg","images/26.jpg"];
+const photos = ["images/jtoh 1.jpg","images/jtoh 2.jpg","images/jtoh 3.jpg","images/jtoh 4.jpg","images/jtoh 5.jpg","images/jtoh 6.jpg","images/jtoh 7.jpg",
+  "images/jtoh 8.jpg","images/jtoh 9.jpg","images/jtoh 10.jpg","images/jtoh 11.jpg","images/jtoh 12.jpg","images/jtoh 13.jpg","images/jtoh 14.jpg","images/jtoh 15.jpg",
+  "images/jtoh 16.jpg","images/jtoh 17.jpg","images/jtoh 18.jpg"];
 const rain = document.getElementById("photo-rain");
 
 setInterval(()=>{
@@ -130,11 +130,39 @@ function typeStory(){
 
 /* GALERI */
 const galleryData=[
-  {img:"images/1.jpg",text:"Pertama kali kita keluar yang difotoo wkwkwk,bukan pertamaa kalii sii,yang pertama kalii ndaakk difotoo wkwkwk 💕"},
-  {img:"images/vid1.mp4",text:"Pertama kali bikin Video bareng berduaaa hehe 🤍"},
-  {img:"images/2.jpg",text:"Dimanaa kita pergi jauhh bangett iniii dimanaa hayoo masihh ingett apaa ndakkk 💕"},
-  {img:"images/12.jpg",text:"Moment dimana kitaaa jalann ke alamm yangg bener benerr alammm nextt kemanaa lagii yaa kitaaa ✨"},
-  {img:"images/13.jpg",text:"TAhuuu laa yaa inii fotoo apaaa,YASSSS MY FOTOO FAVORITEE 💕"},
+  {img:"images/1.jpg",text:"Niii inget ga eppoy pertama kali bernampak di permukaan keluargaa akuu secara offlinee"},
+  {img:"images/2.jpg",text:"ini pertama kalii kita foto di bioskop rajawalii setelahh pergii jauhh yaa gaa"},
+  {img:"images/3.jpg",text:"inii pertama kalii eppoyy nemeninn nduyy skripsiann hehehe"},
+  {img:"images/4.jpg",text:"inii yang habis darimanaa hayoo?? abis makan pempekk bm nyaa nduyy yang habis itu nganterin nduy ke kampus buat fieldtripp"},
+  {img:"images/5.jpg",text:"hahaha akhirnyaa bm nya terpenuhi di fotoin sama mba pdd pas kita boncengann, tapii bm nya pas di kkn nyaa"},
+  {img:"images/6.jpg",text:"makann somayy di gorrr yeyy bm aku lagii hehehe, makasii yaa eppoy nurutin bm aku yangg banyakk inii"},
+  {img:"images/7.jpg",text:"asikk bangett deh pas pdkt, eppoyyy excitedd banget keliatan ahahah, senengg yaa udah ada yang bisa dikabarin lagi??"},
+  {img:"images/8.jpg",text:"datingg pertamaa kalii pas pdkt yuhuuu, soalnya kalo foto berdua masih malu maluu hahaha"},
+  {img:"images/9.jpg",text:"inii pertamaa kalii dijemputt eppoyy di stasiun pwt, setelah sekian purnamaa kalo balik ke pwt sendiriann teruss ke kosnyaa, akhirnya ada mas mas jawa kuu alhamdulillah"},
+  {img:"images/10.jpg",text:"aahhh seneng banget sebelahann hehehe, soalnyaa jadi kenangan memori yaa"},
+  {img:"images/11.jpg",text:"hehehe sampingan lagii yaallah senangnyaa, kenangann lagii yey, tapi sejujurnya inii ga direncanakan yaa semua foto deketann ygyy poyy?"},
+  {img:"images/12.jpg",text:"kaloo inii kayanyaa disengajain deh sama anak anak kkn biar sekelompok prokeran gaksiee sayangg?? hahaha kamu malah acc"},
+  {img:"images/13.jpg",text:"simplee sajaa yaa inii foto tukang satee yangg eppoy bela belain buat nemenin nduyy ke kebumen kotaa buat makan malem bareng bubend dan bu pdd"},
+  {img:"images/14.jpg",text:"inii juga simplee saja yaa kesaltingann nduyy pada saat dibukain saos sambell ditambahh diingetin ada rambut yang keluar dari jidat alias jiponn"},
+  {img:"images/15.jpg",text:"inii yaallah salting dua duanyaa aslii, karenaa karenaa di tandain sama subjek prokeran kita kaloo kita dikit lagii nikah? atau pacaran? hahaha pada ketawa semua disituu"},
+  {img:"images/16.jpg",text:"inii foto akuu aja sihh tapii ada yang berhargaa eheheh, akuu diingetinn muluu disuruh pake topii eppoyy, soalnya eppoy kasian sama akuu karena gapake topii kapanasan nantii"},
+  {img:"images/17.jpg",text:"dimanaa inii adalahh momen pdkt kamuu jugaa buat dapetin akoo, curang bangett masak nyogok pake nawarin nebeng mobil kamuu buat pindah pindahan kkn"},
+  {img:"images/18.jpg",text:"inii lebih kee kenangan kkn sihh tapii taugasii kamu nyadar gaa?? kita tu selalu ke apit satu orang doang tau kalo foto rame rame ginii, kamu sengajaa ya ngambil nya angel kanan kaya aku jugaa??? hayoo"},
+  {img:"images/19.jpg",text:"tuhkann yakann keapit satu orangg terus kann??"},
+  {img:"images/mory.jpg",text:"inii aku ss dari video recap kita hahaha, soalnyaa bm difoto pas boncengan sbnrnyaa"},
+  {img:"images/vid1.mp4",text:"inii pertamaa kalii ngobroll langsungg sama ayahh, langsung panas gaa otaknyaa poyy?? tapii seruu kan ayah aedonn??"},
+  {img:"images/vid2.mp4",text:"inii pertamaa kalii jalan pulang pagii yaallah abistuu dimarahin ibumuu hahhaha, maaff yaa eppoyy kamu jadi kena marahh"},
+  {img:"images/20.jpg",text:"alhamdulillah akuu tahun baru di pwt nyaa udah ditemeninn orangg, soalnya biasanya gaperah keluar dari kos kalo tahun baruu :(("},
+  {img:"images/21.jpg",text:"inii keduaa kalinyaa eppoy nemenin aku ke RS, kamuu haruss sabarr sabar yaa sama nduyy kalo masalah aslam dan aslam :))"},
+  {img:"images/22.jpg",text:"ahhh aku senengg bangett, taugaa kenapaa?? pertamaa kalii aku dikasih bungaa sama pacarr akuu, orangg yang aku sayangg, dan dikasihh kuee coklatt, dan tentunyaa kehadirann eppoy dan effort eppoy yang akuu sukaaa"},
+  {img:"images/23.jpg",text:"inii i wishh bangett parahh, akuu dari duluu pengen banget nonton konserr sama pacarr akuu, dan alhamdulillah eppoy first experiencee akuu"},
+  {img:"images/24.jpg",text:"pertamaa kalinyaa ke daerah tegall barengg eppoyy, dan kedua kalinyaa pergii jauhh"},
+  {img:"images/25.jpg",text:"kaloo inii pertamaa kalii aku nyobain es brazill, soalnyaa dikenalinn sama akamsi nyaa langsungg siehh yaituu pacarr akoo eppoyy"},
+  {img:"images/26.jpg",text:"hmmm inii pertamaa kalinyaa juga kita ke pantaii yang ada cafenyaa"},
+  {img:"images/27.jpg",text:"kaloo inii mahh first experience nyaa eppoyy, soalnyaa eppoy baru pertama kali cobain lawsonn karena nduyy ehheehe"},
+  {img:"images/28.jpg",text:"eyyy inii parahh bangett yaa, masaa peyekk buat akuu dari mbahtii dah dihabisin setengahh, jadinyaa pap deh laporan ke mamah kalo eppoy sukakk peyekk mbahtii, ehh next nya dibawain buat eppoy dari mbahtii"},
+  {img:"images/29.jpg",text:"i love this love sign sooo muchhh, yangg bikin orangg orangg pada happy juga liatnya di sg second acc akuu"},
+  {img:"images/30.jpg",text:"udahh dehh ini penutupp eheheh, lucuu bangett pokonyaa kenangann yangg hampir setengah tahunn inii dikit lagii, SEMOGAA EPPOYY DAN NDUYY BISAA TERUS TERUSS BARENGG YAA KEDEPANN KEDEPANNYAA AAMIIN"},
   {img:"images/14.jpg",text:"Dan aku ingin selamanya ❤️"}
 ];
 let currentSlide=0;
